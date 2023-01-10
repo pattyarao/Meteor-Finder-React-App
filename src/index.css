@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #142349;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-field{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  background-color: #142349;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #F8F8F8;
+  box-shadow: 
+  0 0 5px #F8F8F8,
+  inset 0 0 5px #F8F8F8;
+}
+
+.text-field::placeholder{
+  color: #FFEDED;
+}
+
+.text-filed::-ms-input-placeholder{
+  color: #FFEDED;
+}
+
+.meteor-heading{
+  color: white;
+  display: block;
+
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+
+  margin-bottom: 30px;
+}
+
+.search-meteor{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  background-color: #142349;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #F8F8F8;
+  box-shadow: 
+  0 0 5px #F8F8F8,
+  inset 0 0 5px #F8F8F8;
+}
+
+.search{
+  vertical-align: middle;
+}
+
+.container{
+  background-color: #142349;
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: #2D46B9;
+  border-radius: 25px;
+
+  box-shadow: 
+  0 0 20px #2D46B9,
+  inset 0 0 20px #2D46B9;
+
+  padding: 50px;
+  margin: 50px;
+}
+
+.meteor-details{
+  display: inline-block;
+  background-color: #142349;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+
+  border-color: #F037A5;
+  box-shadow: 
+    0 0 20px #F037A5,
+    inset 0 0 20px #F037A5;
+
+  border-width: 5px;
+  border-style: solid;
+
+}
+
+.meteor-details:hover{
+  animation: blinkEffect 2s linear infinite;
+}
+
+@keyframes blinkEffect{
+  50%{
+    box-shadow: none;
+  }
+  100%{
+    box-shadow: 
+    0 0 20px #F037A5,
+    inset 0 0 20px #F037A5;
+  }
+}
+
+.meteor-name{
+  color: #FF85B3;
+  text-shadow: 0 0 5px #FF008E;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.meteor-year{
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.buttons{
+  margin-top: 10px;
+}
+
+.search-results{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  margin-left: 0;
+  margin-top: 10px;
+
+  background-color: #142349;
+  border-color: #96BAFF;
+  border-width: 3px;
+  border-radius: 15px;
+  border-style: solid;
+  color: #96BAFF;
+  font-weight: bold;
+
+  box-shadow: 
+  0 0 10px #96BAFF,
+  inset 0 0 10px #96BAFF;
+}
+
+.search-loc{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 10px;
+
+  background-color: #142349;
+  border-color: #96BAFF;
+  border-width: 3px;
+  border-radius: 15px;
+  border-style: solid;
+  color: #96BAFF;
+  font-weight: bold;
+
+  box-shadow: 
+  0 0 10px #96BAFF,
+  inset 0 0 10px #96BAFF;
+}
